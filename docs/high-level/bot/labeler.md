@@ -48,6 +48,6 @@ from vkbottle.bot import BotLabeler, Message
 bl = BotLabeler()
 
 @bl.message(text=["пока", "до свидания"])
-async def greeting(message: Message):
+async def goodbye(message: Message):
     await message.answer("До новых встреч")
 ```
