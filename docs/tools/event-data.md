@@ -14,9 +14,9 @@
 from vkbottle import ShowSnackbarEvent
 
 await api.messages.send_message_event_answer(
-    event_id=event.object.event_id,
-    user_id=event.object.user_id,
-    peer_id=event.object.peer_id,
+    event_id=event.event_id,
+    user_id=event.user_id,
+    peer_id=event.peer_id,
     event_data=ShowSnackbarEvent(text="Сейчас я исчезну").json(),
 )
 ```
