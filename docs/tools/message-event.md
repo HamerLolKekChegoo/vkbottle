@@ -14,4 +14,4 @@ async def handle_message_event(event: MessageEvent):
 * Никакого `object`. Всё находится уже в `event`, вместе с `group_id`
 * Поддержка всех генераторов `event-data` при помощи соответствующими функциями
 * Поддержка рулзов, связанных с `payload`
-* Так же есть `message_edit` и `message_send`
+* Так же есть `edit_message` и `send_message`
